@@ -1,0 +1,163 @@
+
+
+/*iphone6P的宽度412px*/
+@media only screen and (min-width:412px){
+
+
+.moreproduct{	
+	background: #38f;
+	height: 24 px;
+	width: 65px;
+	position: absolute;
+	right: 5px;
+	top:10px;
+	color: white;
+	font-family:"Arial";
+	font-size: 15px;
+	text-align: center;
+	float: left;
+}
+body{
+	position: relative;
+}
+.null{
+	width: 100px;
+	display: inline-block;
+}
+div>a{
+	display: none;
+	position: relative;
+	right: 5px;
+	width: 65px;
+	height: 20px;
+	float: left;
+
+}
+.moreproduct:link{
+	background:#38f; 
+}
+.moreproduct:visited{
+	background:black; 
+}
+.moreproduct:hover a{
+	display: block;
+
+	height: 20px;
+}
+.moreproduct:hover {
+	height: 650px;
+	background: white;
+	color: black;
+}
+
+nav>a:link {
+	color: black;
+}
+nav>a:visited {
+	color: black;
+}
+
+nav>a:hover {
+	color: blue;
+}
+
+
+
+header{
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	margin-left:-135px; 
+}
+article{
+	position: absolute;
+	top: 220px;
+	left: 50%;
+	margin-left:-320px; 
+	min-width: 670px;
+}
+footer{
+	position: absolute;
+	left: 50%;
+	margin-left:-132px;
+	bottom: 1px;
+	top: 500px;
+}
+input.t:hover{
+	/*border:1px solid black;*/
+	    /*border-color:#b3b3b3;*/
+}
+
+/*查询框*/
+.t{
+	height: 29px;
+	width: 540px;
+	display: inline;
+}
+
+/*百度一下按钮*/
+.bd{
+	margin: -8px;
+	height: 36px;
+	background:#38f;
+	color:white;
+	width: 100px;
+	border: 0;
+	cursor: pointer;/*鼠标变小手*/
+
+}
+.zxj{
+	position: relative;
+	top: 12px;
+ 	margin-top: -43px;
+ 	margin-left: -45px;
+ 	width: 32px;
+ 	/*height: 32px;*/
+ 	/*left: 510px;*/
+ 	border: 0;
+
+}
+.phone{
+	display: none;
+}
+
+
+}
+
+/*iphone6P的宽度412px*/
+@media only screen and (max-width:412px){
+
+.moreproduct{
+	display: none;
+}
+article{
+	min-width: 412px;
+}
+
+nav{
+	display: none;
+}
+.zxj{
+	display: none;
+}
+.t{
+	width: 308px;
+}
+.bd{
+	width: 68px;
+	margin-left: -8px;
+	background:#38f;
+	border:0;
+	height: 20px;	
+	color:white;
+	cursor: pointer;/*鼠标变小手*/
+}
+.phone{
+	display: block;
+}
+.phone div{
+	float: left;
+	width: 60px;
+}
+
+}

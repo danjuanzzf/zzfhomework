@@ -1,0 +1,1 @@
+fis.match("::packager",{spriter:fis.plugin("csssprites")}),fis.match("*",{useHash:!1}),fis.match("*.js",{optimizer:fis.plugin("uglify-js")}),fis.match("*.css",{useSprite:!0,optimizer:fis.plugin("clean-css")}),fis.match("*.png",{optimizer:fis.plugin("png-compressor")});

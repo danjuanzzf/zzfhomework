@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.contain{
+	position: absolute;
+	left: 50%;
+	margin-left: -174px;
+
+}
+
+.t1,.t2,.t4{
+	width:80px;
+}
+.t3{
+	width: 40px;
+	/*padding-top: 3px;*/
+}
+
+form{
+	box-sizing: border-box;
+}
+
+.c1{
+	width: 300px;
+	float: left;
+
+}
+span{
+	position: relative;
+	/*float: left;*/
+/*	left: 50%;
+	margin-left: -24px;*/
+}
+.c2{
+	/*margin-left: -10px;*/
+	width: 40px;
+	float: left;
+}

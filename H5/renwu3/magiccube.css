@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/**/
+
+/*容器*/
+.contain{
+	
+	/* height: 200px;
+	 width: 200px;
+	 margin:100px auto 0 auto;*/
+	position: relative;
+	top:300px;
+	left:300px;
+/*	 margin-left:-100px;
+	 margin-top:-100px;
+	
+	 perspective:500px;*/
+}
+		
+	.box{
+		 width: 100%;
+        height: 100%;
+		top:200px;
+		left:400px;
+		position: absolute;
+
+	 /*-webkit-perspective:200px;*/
+	-webkit-animation-name:animations;/*动画*/
+	-webkit-animation-timing-function:ease-in-out;/*过度类型*/
+	-webkit-animation-iteration-count:infinite;/*无线循环*/
+	-webkit-animation-duration:3s;
+	-webkit-transform-style:preserve-3d;/*开启3D*/
+	-webkit-transform-origin:151px 151px 0;
+
+	animation-name:animations;/*动画*/
+	animation-timing-function:ease-in-out;/*过度类型*/
+	animation-iteration-count:infinite;/*无线循环*/
+	animation-duration:3s;
+	transform-style:preserve-3d;/*开启3D*/
+	transform-origin:151px 151px 0;
+
+		 /*-webkit-perspective-origin:center center; /*视点*/*/
+		 /*-webkit-perspective:3500px;*/
+	 /*transform-style:preserve-3d;/*开启3D*/*/
+	 /*perspective:300px;*/
+	-
+}
+		@-webkit-keyframes animations{
+			16%{-webkit-transform:rotateY(-30deg)}
+			33%{-webkit-transform:rotateZ(135deg)}
+			50%{-webkit-transform:rotateX(170deg) rotateZ(135deg)}
+			66%{-webkit-transform:rotateX(135deg) rotateX(-60deg)}
+			83%{-webkit-transform:rotateX(100deg)}
+			100%{--webkit-transform:rotateZ(100deg)}
+		}
+		@-moz-keyframes animations{
+			16%{transform:rotateY(-30deg)}
+			33%{transform:rotateZ(135deg)}
+			50%{transform:rotateX(170deg) rotateZ(135deg)}
+			66%{transform:rotateX(135deg) rotateX(-60deg)}
+			83%{transform:rotateX(100deg)}
+			100%{transform:rotateZ(100deg)}
+		}
+
+.one{
+		position: absolute;
+	height: 300px;
+	width: 300px;
+	        border:1px solid black;
+}
+.one div{
+	background: red;
+}
+
+/*后面*/
+.two{
+		position: absolute;
+
+		height: 300px;
+	width: 300px;
+	        border:1px solid black;
+}
+.two div{
+	background: orange;	
+}
+
+/*左面*/
+.three{
+		position: absolute;
+		height: 300px;
+	width: 300px;
+	        border:1px solid black;
+}
+.three div{
+		background: yellow;
+}
+
+/*右面*/
+.four{
+		position: absolute;
+
+		height: 300px;
+	width: 300px;
+	        border:1px solid black;
+}
+.four div{
+		background: green;
+}
+
+/*上面*/
+.five{
+		position: absolute;
+		height: 300px;
+	width: 300px;
+	        border:1px solid black;
+}
+.five div{
+	background: blue;	
+}
+
+/*下面*/
+.six{
+		position: absolute;
+
+		height: 300px;
+	width: 300px;
+	        border:1px solid black;
+}
+.six div {
+	background:gray;	
+}
+
+.one{transform:rotateY(0deg) translateZ(151px);}
+.two{transform:rotateX(180deg) translateZ(151px);}
+.three{transform:rotateY(-90deg) translateZ(151px);}
+.four{transform:rotateY(90deg) translateZ(151px);}
+.five{transform:rotateX(90deg) translateZ(151px);}
+.six{transform:rotateX(-90deg) translateZ(151px);}
+
+
+
+.one div,.two div,.three div,.four div,.five div,.six div{
+	width: 98px;
+	height: 98px;
+	border:1px solid;
+	border-radius: 10px;
+	float: left;
+}
+/*// .one1{
+// 	top: 0;
+// 	left: 0;
+// }
+// .one2{
+// 	top: 0;
+// 	left: 101px;
+// }
+// .one3{
+// 	top: 0;
+// 	left: 202px;
+// }
+// .one4{
+// 	top: 101px;
+// 	left: 0;
+// }
+// .one5{
+// 	top: 101px;
+// 	left: 101px;
+// }
+// .one6{
+// 	top: 101px;
+// 	left: 202px;
+// }
+// .one7{
+// 	top: 202px;
+// 	left: 0;
+// }
+// .one8{
+// 	top: 202px;
+// 	left: 101px;
+// }
+// .one9{
+// 	top: 202px;
+// 	left: 202px;
+// }*/

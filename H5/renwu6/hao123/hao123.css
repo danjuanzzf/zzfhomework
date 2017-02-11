@@ -1,0 +1,334 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 60px;
+	/*width: 1000px;*/
+	/*background: yellowgreen;*/
+}
+a{
+	text-decoration: none;
+
+}
+
+.d1{
+	height: 60px;
+	width: 168px;
+	background:url(24.png);
+	/*background: url(24.png);*/
+	margin-left: 150px;
+	position: relative;
+	float: left;
+}
+
+.s1{
+	width: 28px;
+	height: 30px;
+	font-size: 12px;
+	float: left;
+	background: #07ac72;
+	cursor: pointer;
+	margin-top: 15px;
+	border-radius: 2px;
+	color: white;
+	text-align: center;
+	
+}
+
+.s2{
+	color: #999;
+	line-height: 60px;
+	font-size: 12px;
+	float: left;
+
+}
+.s3{
+	width: 19px;
+	height: 9px;
+	margin-top: 25px;
+	float: left;
+	/*line-height: 60px;*/
+	display: inline-block;
+	background: url(25.png) no-repeat -52px -102px;
+	
+}
+
+.s4{
+	float: left;
+	height: 30px;
+	width: 26px;
+	background: url(http://s0.hao123img.com/res/weather/v1/a2.png);
+	margin-top: 15px;
+	
+}
+
+
+.s5{
+	
+	color: #999;
+	line-height: 60px;
+	font-size: 13px;
+	float: left;
+}
+.s6{
+	
+	color: #999;
+	line-height: 60px;
+	font-size: 13px;
+	float: left;
+	margin-left: 10px;
+}
+.s7{
+	
+	color: #999;
+	line-height: 60px;
+	font-size: 13px;
+	float: left;
+	margin-left: 10px;
+}
+.s8{
+	
+	color: #999;
+	line-height: 60px;
+	font-size: 13px;
+	float: left;
+	margin-left: 10px;
+}
+.s9{
+	
+	color: #999;
+	line-height: 60px;
+	font-size: 13px;
+	float: left;
+	margin-left: 10px;
+}
+.d2{
+	width: 120px;
+	height: 40px;
+	background: url(25.png) no-repeat -10px -212px;
+	margin-left: 260px;
+	float: left;
+}
+
+.t1{
+	
+	height: 38px;
+	width: 540px;
+	/*border: 1px solid;*/
+}
+
+.b1{
+	height: 40px;
+	width: 120px;
+	cursor: pointer;
+	/*border: 2px solid ;*/
+}
+
+.d3{
+	margin-left: 30px;
+	background: black;
+	float: left;
+}
+
+.d4{
+	float: left;
+	margin-left:30px;
+	width: auto;
+}
+.b2{
+	color: red;
+	cursor: pointer;
+	margin-right:5px; 
+
+}
+.b3{
+	color: green;
+	cursor: pointer;
+	margin-right:5px; 
+	
+}
+.b4{
+	color: yellow;
+	cursor: pointer;
+	margin-right:5px; 
+	
+}
+.b5{
+	color: blue;
+	cursor: pointer;
+	margin-right:5px; 
+	
+}
+
+.d5{
+	width: 100%;
+	height: 50px;
+	/*background: black;*/
+	position: absolute;
+	margin-top: 80px;
+}
+
+.d6{
+	height: 41px;
+	width: 110px;
+	float:left;
+	text-align: center;
+	margin-left: 100px;
+	color: white;
+	background:green;
+	line-height: 38px;
+}
+
+.d7{
+	height: 38px;
+	width: 110px;
+	float:left;
+	text-align: center;
+	color: black;
+	line-height: 38px;
+	border-top:2px solid green;
+	border-bottom:1px solid green;  
+	/*background: green;*/
+}
+
+.d8{
+	height: 38px;
+	width: 110px;
+	float:left;
+	text-align: center;
+	color: black;
+	line-height: 38px;
+	border-top:2px solid green; 
+	border-bottom:1px solid green;  
+
+}
+
+.d9{
+	height: 38px;
+	width: 110px;
+	float:left;
+	text-align: center;
+	color: black;
+	line-height: 38px;
+	border-top:2px solid green; 
+	border-bottom:1px solid green;  
+}
+
+.d10{
+	height: 38px;
+	width: 110px;
+	float:left;
+	text-align: center;
+	color: black;
+	line-height: 38px;
+	border-top:2px solid green; 
+	border-bottom:1px solid green;  
+}
+
+.d11{
+	height: 38px;
+	width: 110px;
+	float:left;
+	text-align: center;
+	color: black;
+	line-height: 38px;
+	border-top:2px solid green; 
+	border-bottom:1px solid green;  
+}
+
+.d12{
+	width: 280px;
+	/*width: 230px;*/
+	height: 110px;
+	/*background: yellow;*/
+	position: absolute;
+	margin-top: 140px;
+	float: left;
+	margin-left:100px;
+	border: 1px solid #cecece; 
+}
+
+
+.d13{
+	width: 900px;
+	height: 110px;
+	/*background: yellow;*/
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 390px;
+	float: left;
+	border: 1px solid #84d7ba;
+
+}
+
+.i1{
+	background: url(27.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+	position: relative;
+
+}
+.i2{
+	background: url(27.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+
+}
+
+.i3{
+	background: url(27.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: relative;
+	float: left;
+	margin-left: 36px;
+
+}
+.a5{
+	display: block;
+	float: left;
+	position: relative;
+	color: black;
+}
+
+.s10{
+	display: block;
+	float: left;	
+	position: relative;
+}
+.clear{
+	clear: both;
+}
+
+
+
+.d15{
+	height: 38px;
+	width: 140px;
+	float:left;
+	text-align: center;
+	color: black;
+	line-height: 38px;
+	/*border-top:2px solid green;*/
+	/*border-bottom:1px solid green;  */
+
+}
+.d151{
+	height: 38px;
+	width: 140px;
+	float:left;
+	text-align: center;
+	/*color: green;*/
+	line-height: 38px;
+	/*border-top:2px solid green;*/
+	/*border-bottom:1px solid green;  */
+
+}

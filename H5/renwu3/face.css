@@ -1,0 +1,98 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+.contain{
+	width: 300px;
+	height: 300px;
+	background: orange;
+	border-radius: 50%;
+
+}
+
+.left{
+	width: 30px;
+	height:30px;
+	background: black;
+	opacity: 0.8;
+	border: 1px solid;
+	border-radius: 50%;
+	position: absolute;
+	left: 80px;
+	top: 80px;
+	-webkit-animation-name:animations;/*动画*/
+	-webkit-animation-duration:1s;
+	-webkit-animation-timing-function:ease-in-out;/*过度类型*/
+	-webkit-animation-iteration-count:infinite;/*无线循环*/
+	
+	animation-name:animations;/*动画*/
+	animation-duration:1s;
+	animation-timing-function:ease-in-out;/*过度类型*/
+	animation-iteration-count:infinite;/*无线循环*/
+}
+
+.right{
+	width: 30px;
+	height:30px;
+	background: black;
+	opacity: 0.8;
+	border: 1px solid;
+	border-radius: 50%;
+	position: absolute;
+	left: 190px;
+	top: 80px;
+	-webkit-animation-name:animations;/*动画*/
+	-webkit-animation-duration:1s;
+	-webkit-animation-timing-function:ease-in-out;/*过度类型*/
+	-webkit-animation-iteration-count:infinite;/*无线循环*/
+	animation-name:animations;/*动画*/
+	animation-duration:1s;
+	animation-timing-function:ease-in-out;/*过度类型*/
+	animation-iteration-count:infinite;/*无线循环*/
+}
+.middle{
+		/*height: 10px;*/
+		position: absolute;
+		top: 125px;
+		left: 130px;
+		background: black;
+		border:20px solid;
+		border-top-color: orange;
+		border-left-color: orange;
+		border-right-color: orange;
+		-webkit-transform:scaleX(0.5);
+		transform:scaleX(0.5);
+}
+
+
+.bottom{
+	width: 100px;
+	height:100px;
+	background: orange;
+	opacity: 0.8;
+	border: 4px solid;
+	border-radius: 50%;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	position: absolute;
+	left: 100px;
+	top: 170px;
+	-webkit-transform:rotateZ(45deg);
+	-webkit-transform:skew(0 10deg);
+	transform:rotateZ(45deg);
+	transform:skew(0 10deg);
+}
+
+
+
+		@-webkit-keyframes animations{
+			from {background: black;}
+			to {background: orange;}
+			
+		}
+		@keyframes animations{
+			from {background: black;}
+			to {background: orange;}
+			
+		}
+	

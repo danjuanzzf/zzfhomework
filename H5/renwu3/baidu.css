@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	behavior:url(hover.htc);
+}
+
+
+
+
+
+
+.moreproduct{
+	
+	background: #38f;
+	height: 24 px;
+	width: 65px;
+	position: absolute;
+	right: 5px;
+	top:10px;
+	color: white;
+	font-family:"Arial";
+	font-size: 15px;
+	text-align: center;
+	float: left;
+
+}
+.null{
+	width: 100px;
+	display: inline-block;
+}
+.moreproduct a{
+	display: none;
+	position: relative;
+	right: 5px;
+	width: 65px;
+	height: 20px;
+	float: left;
+
+}
+.moreproduct:link{
+	background:#38f; 
+}
+.moreproduct:visited{
+	background:black; 
+}
+
+.moreproduct:hover a{
+	display: block;
+
+	height: 20px;
+}
+.moreproduct:hover {
+	height: 650px;
+	background: white;
+	color: black;
+}
+
+.p>a:link {
+	color: black;
+}
+.p>a:visited {
+	color: black;
+}
+
+.p>a:hover {
+	color: blue;
+}
+
+
+
+.header{
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	/*_left: 50%;*/
+	margin-left:-135px;
+	/*_margin-left:-135px;*/
+}
+.article{
+	position: absolute;
+	top: 220px;
+	left: 50%;
+	margin-left:-320px; 
+}
+.footer{
+	position: absolute;
+	left: 50%;
+	margin-left:-132px;
+	bottom: 1px;
+
+}
+
+/*查询框*/
+.t{
+	height: 29px;
+	width: 540px;
+}
+
+/*百度一下按钮*/
+.bd{
+	margin-left: -8px;
+	height: 36px;
+	background:#38f;
+	color:white;
+	width: 100px;
+	border: 0;
+	margin-left: -3px\9;
+	padding-top: 1px\9; 
+
+
+}
+.zxj{
+	position: absolute;
+ 	margin-top: -34px;
+ 	width: 32px;
+ 	height: 32px;
+ 	left: 510px;
+ 	border: 0;
+	margin-top: 6px\9;
+	_margin-top:3px;
+
+
+}
+
+.p{
+	float:right;
+	_position: relative;
+	_right: 100px;
+}
+
+

@@ -1,0 +1,9 @@
+CREATE TABLE news(
+   id INT NOT NULL AUTO_INCREMENT,
+   newstype VARCHAR(100) NOT NULL,
+   newstitle VARCHAR(100) NOT NULL,
+   newsimg VARCHAR(40) NOT NULL,
+   newstime DATE,
+   newssrc CHAR(100) NOT NULL,
+   PRIMARY KEY ( id )
+);

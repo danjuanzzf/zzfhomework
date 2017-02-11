@@ -1,0 +1,373 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 60px;
+
+}
+.jkxy{
+	height: 40px;
+	width: 1109;
+}
+
+.row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+
+/*背景视频*/
+.videocontain{
+	z-index: -1;
+	height:525px;
+	width: 1420px;
+	display: block;
+	/*padding: 0 auto;*/
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*margin-left:-960px;*/
+	/*overflow: hidden;*/
+	
+	
+}
+
+.h{
+	color: white;
+	width: 600px;
+	padding-left: 100px;
+	width: 600px;
+}
+
+
+
+.h01{
+	color: white;
+	width: 600px;
+	/*padding-left:-20px;*/
+	width: 600px;
+	font-size: 13px;
+}
+.h02{
+	color: white;
+	width: 600px;
+	padding-left: 75px;
+	width: 600px;
+	font-size: 13px;
+
+}
+
+.p1{
+	position: absolute;
+	margin-top: -500px;
+	left: 50%;
+	margin-left:-282px;
+}
+.p11{
+
+}
+article{
+	position: relative;
+}
+
+.pho{
+	position: absolute;
+	margin-top: -330px;
+	left: 50%;
+	margin-left: -108px;
+	height:44px;
+}
+
+.pho2:hover{
+	opacity: 1;
+}
+.pho1:hover{
+	opacity: 1;
+}
+.pho1 a:hover{
+	text-decoration:none;
+	color: white;
+}
+.pho2 a:hover{
+	text-decoration:none;
+	color: white;
+}
+
+
+.pho1{
+	float: left;
+	margin-left:-69px; 
+	margin-right: 30px;
+	width: 141px;
+	height: 44px;
+	background: grey;
+	opacity: 0.5;
+
+}
+.pho2{
+	float: left;
+	width: 141px;
+	height: 44px;
+	background: grey;
+	opacity: 0.5;
+}
+.pho1 a,.pho2 a{
+	width: 91px;
+	height: 16px;
+	display: block;
+	margin:7px auto;
+	vertical-align: middle;
+	color: white;
+	text-align: center;
+	text-decoration:none;
+
+}
+
+.s1{
+	position: absolute;
+	margin-top: -255px;
+	left: 50%;
+	margin-left: -82px;
+	color: white;
+/*	width: 141px；
+	height:44px;*/
+}
+.s1 span{
+	font-size: 12px;
+}
+
+.a01{
+	position: absolute;
+	margin-top: -180px;
+	left: 50%;
+	margin-left: -86px;
+	color: white;
+	width: 120px;
+	height: 34px;
+	border:1px solid rgb(265,265,265);
+	border-radius: 20px;
+	opacity: 0.5
+}
+.a01 a{
+	display: block;
+	margin:7px auto;
+	text-align: center;
+	color: white;
+
+}
+.a01:hover{
+	opacity: 1;
+}
+.a01:hover a{
+	color: white;
+	text-decoration:none;
+
+}
+
+
+.b1{
+	width: 100%;
+	height: 240px;
+	margin-top: -100px;
+}
+.b11,.b12,.b13{
+	position: relative;
+	background: white;
+	height: 240px;
+	width: 322px;
+	float: left;
+	box-sizing: border-box;
+}
+.b11{
+	/*margin-top: -100px;*/
+	margin-left: 160px;
+	margin-right: 20px;
+
+}
+.b12{
+	/*margin-top: -100px;*/
+	margin-right: 20px;
+	/*margin-left:502px;*/
+}
+
+.b13{
+	/*margin-top: -100px;*/
+
+	/*margin-left:842px;*/
+}
+.s01,.s02,.s03{
+	display: block;
+	font-size: 18px;
+	height: 50px;
+	text-align: center;
+	/*vertical-align: middle;*/
+	line-height: 50px;
+}
+
+
+.b111,.b112,.b113,.b114{
+	width: 75px;
+	height: 76px;
+/*	margin-top: 17px;
+	margin-bottom:17px;*/
+	background: white;
+	float: left;
+	display: block;
+}
+.bclear{
+	clear: both;
+}
+/*.b111{
+	margin-left:10px;
+}
+.b114{
+	margin-right: 10px;
+}*/
+.b01,.b02,.b03{
+	padding: 17px 10px; 
+
+}
+
+.b1111{
+	display: inline-block;
+	margin-left: 12px;
+	width: 50px;
+	height: 50px;
+	 background:url(http://s1.jikexueyuan.com/index/images/cardhtml5_c4de6b8.jpg) no-repeat center /26px 35px;
+}
+.b1112{
+	display: inline-block;
+	margin-left: 12px;
+	width: 50px;
+	height: 50px;
+	background:url(http://s1.jikexueyuan.com/index/images/cardpython_46dafa5.png) no-repeat center / 35px 35px
+}
+.b1113{
+	display: inline-block;
+	margin-left: 12px;
+	width: 50px;
+	height: 50px;
+	background:url(http://s1.jikexueyuan.com/index/images/cardgo_f7d5603.png) no-repeat center / 25px 35px
+}
+.b1114{
+	display: inline-block;
+	margin-left: 12px;
+	width: 50px;
+	height: 50px;
+	 background:url(http://s1.jikexueyuan.com/index/images/cardios_1b210b7.jpg) no-repeat center / 30px 35px
+}
+.s11{
+	text-align: center;
+	display: block;
+	width: 75px;
+	height: 16px;
+	color: black;
+}
+
+.b121{
+	width: 150px;
+	height: 77px;
+/*	margin-top: 17px;
+	margin-bottom:17px;*/
+	/*background: blue;*/
+	float: left;
+	display: block;
+	/*background:url(http://s1.jikexueyuan.com/index/images/cardvideohover_a616ae2.png) no-repeat top center / 30px 30px;*/
+}
+.b122{
+	width: 150px;
+	height: 77px;
+/*	margin-top: 17px;
+	margin-bottom:17px;*/
+	/*background: blue;*/
+	float: left;
+	display: block;
+	/*background:url(http://s1.jikexueyuan.com/index/images/cardwiki_5eaea4b.jpg) no-repeat top center / 25px 26px*/
+}
+
+.b1115{
+	display: block;
+	/*margin-left: 12px;*/
+	width: 150px;
+	height: 37px;
+	float: left;
+	background:url(http://s1.jikexueyuan.com/index/images/cardvideohover_a616ae2.png) no-repeat center / 30px 35px;
+}
+
+.b1116{
+	display: block;
+	/*margin-left: 12px;*/
+	width: 150px;
+	height: 37px;
+	float: left;
+	 background:url(http://s1.jikexueyuan.com/index/images/cardwiki_5eaea4b.jpg) no-repeat center / 30px 35px;
+}
+.s12{
+	display: block;
+	width: 150px;
+	height: 20px;
+	text-align:center;
+	float: left;
+	color: black;
+/*	padding-right: auto;
+	padding-left: auto;*/
+	/*float: left;*/
+}
+
+
+.b131{
+	width: 100px;
+	height: 77px;
+	float: left;
+	display: block;
+
+}
+.b132{
+	width: 100px;
+	height: 77px;
+	float: left;
+	display: block;
+
+}
+.b133{
+	width: 100px;
+	height: 77px;
+	float: left;
+	display: block;
+
+}
+
+.b1117{
+	display: block;
+	/*margin-left: 12px;*/
+	width: 100px;
+	height: 37px;
+	float: left;
+	 background:url(http://s1.jikexueyuan.com/index/images/cardxue_99b0a45.jpg) no-repeat top center / 33px 28px;
+}
+
+.b1118{
+	display: block;
+	/*margin-left: 12px;*/
+	width: 100px;
+	height: 37px;
+	float: left;
+	 background:url(http://s1.jikexueyuan.com/index/images/cardjiao_d70bff6.jpg) no-repeat top center / 36px 27px;
+}
+
+.b1119{
+	display: block;
+	/*margin-left: 12px;*/
+	width: 100px;
+	height: 37px;
+	float: left;
+	 background:url(http://s1.jikexueyuan.com/index/images/cardbu_1d16287.jpg) no-repeat top center / 22px 30px;
+}
+.s13{
+	display: block;
+	width: 100px;
+	height: 20px;
+	text-align:center;
+	float: left;
+	color: black;
+}

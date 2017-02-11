@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*头*/
+header{
+	background: orange;
+	height: 100px;
+}
+footer{
+	background: green;
+	height: 120px;
+}
+
+/*容器下的div*/
+.contain div{
+	text-align: center;
+}
+
+/*容器*/
+.contain{
+
+	background: blue;
+	overflow: hidden;
+	min-width: 600px;
+}
+
+.inner{
+	margin-left: 96px;
+	margin-right: 96px;
+
+}
+
+/*中间*/
+.middle{
+
+	background: red;
+	float: left;
+
+	width: 100%;
+	margin-bottom:-9999px;
+	padding-bottom:9999px;  
+
+}
+
+/* 左 */
+.left{
+	background: pink;
+	float: left;
+	width: 96px;
+	margin-left:-100%;
+	margin-bottom:-9999px;
+	padding-bottom:9999px;  
+
+}
+
+/*右*/
+.right{
+
+	background: yellow;
+	float: left;
+	width: 96px;
+	margin-left:-96px; 
+	margin-bottom:-9999px;
+	padding-bottom:9999px;  
+}

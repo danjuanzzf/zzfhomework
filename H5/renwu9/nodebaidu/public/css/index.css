@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	/*font-size: 52%;*/
+	font-family: arial;
+	height: 100%;
+
+}
+body{
+	height: 100%
+}
+
+.contain{
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+/*清除浮动*/
+.cf::before,
+.cf::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+header{
+	width: auto;
+	height: 48px;
+	/*box-sizing:border-box;*/
+	background: #3e98f0 url(../img/a0.png) no-repeat;
+	background-position: center 10px;
+	background-size: 65px auto;
+	border-bottom: 1px solid #5dabf0;
+}
+
+.headera1{
+	display: block;
+	z-index: 11;
+	float: left;
+	/*padding-top:8px;*/
+	margin-left: 10px;
+	margin-right:10px;
+	width: 34px;
+	height: 48px;
+	background:url(../img/a-1.png)no-repeat;
+	background-position:center 6px;
+	background-size:40px 500px;
+}
+.headera2{
+	display: block;
+	float: left;
+	/*margin-top:8px; */
+	width: 34px;
+	height: 48px;
+	background:url(../img/a-1.png)no-repeat;
+	background-position:center -460px;
+	background-size:40px 500px;
+}
+.headera3{
+	display: block;
+	float: right;
+	/*margin-top:8px; */
+	width: 34px;
+	height: 48px;
+	background:url(../img/a-1.png)no-repeat;
+	background-position:center -160px;
+	background-size:40px 500px;
+}
+.headera4{
+	display: block;
+	float: right;
+	/*margin-top:8px;*/
+	margin-left: 10px;
+	margin-right:10px;
+	width: 34px;
+	height: 48px;
+	background:url(../img/a-1.png)no-repeat;
+	background-position:center -103px;
+	background-size:40px 500px;
+}
+
+
+nav{
+	background-color:#3e98f0; 
+}
+
+nav ul{
+	list-style: none;
+	font-size: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 14.4px;
+	text-align: center;
+}
+nav a{
+	display: inline-block;
+	padding: 10px 0;
+	color: white;
+}
+nav ul i{
+	display: inline-block;
+	height: 20px;
+	float: right;
+	border-right: 1px solid #5dabf0;
+	position: relative;
+	top:9px;
+}
+
+
+.news-lists{
+	margin: 10px 0 0;
+	padding: 0 13px;
+	list-style:none;
+}
+
+.news-lists h1{
+	font-size: 13px;
+}
+
+.news-list{
+	display: flex;
+}
+
+.newsimg{
+	flex: 1;
+}
+.newscontent{
+	flex: 2;
+	padding: 0 8px;
+}
+.newsimg img{
+	width: 100%;
+	height: auto;
+}
+.newscontent span{
+	display: inline-block;
+}
+
+.newscontent span:nth-child(2){
+	margin-left: 8px;
+	border: 1px solid #ff0000;
+	border-radius: 3px;
+	color: #ff0000;
+}

@@ -1,0 +1,80 @@
+body{
+	height: auto;
+	width: auto;
+/*	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;*/
+}
+
+/**/
+.contain{
+	width: 300px;
+	height: 300px;
+	margin:-150px 0 0 -150px;
+	background:white;
+	position: absolute;
+	top: 50%;
+	left:50%;
+}/*容器*/
+
+.contain>div {
+	box-shadow: 5px 5px 5px black;
+}/*阴影*/
+
+
+
+
+.first{
+	width: 100px;
+	height: 100px;
+	margin:0px;
+	padding: 0px;
+	background:blue;
+	position: relative;
+	float: left;
+	left: 100px;
+}/*上*/
+.second{
+	width: 100px;
+	height: 100px;
+	margin:0px;
+	padding: 0px;
+	background:purple;
+	position: relative;
+	float: left;
+	left: -100px;
+	top: 100px;
+}/*左*/
+
+.ez{
+		width: 100px;
+	height: 100px;
+	position: absolute;
+	margin:-50px 0 0 -50px;
+	top: 50%;
+	left: 50%;
+}/*图片*/
+
+.forth{
+	width: 100px;
+	height: 100px;
+	margin:0px;
+	padding: 0px;
+	background:green;
+	position: relative;
+	float: left;
+	/*left: 100px;*/ 	
+	top: 100px;
+}/*右*/
+
+.fifth{
+	width: 100px;
+	height: 100px;
+	margin:0px;
+	padding: 0px;
+	background:maroon;
+	position: relative;
+	float: left;
+	left: 100px;
+	top: 100px;
+}/*下*/

@@ -1,0 +1,3 @@
+INSERT INTO news (newstitle,newstype,newsimg,newstime,newssrc) VALUES ('a','精选','img/5.jpg','1991-10-10','d')
+INSERT INTO news (newstitle,newstype,newsimg,newstime,newssrc) VALUES ('a','本地','img/6.jpg','1991-10-10','d')
+INSERT INTO news (newstitle,newstype,newsimg,newstime,newssrc) VALUES ('a','b','img/7.jpg','1991-10-10','d')

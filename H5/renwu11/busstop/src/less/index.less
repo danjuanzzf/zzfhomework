@@ -1,0 +1,139 @@
+@color_w:white;
+@color_g:green;
+@color_r:red;
+@line:10px;
+@positopn_b:absolute;
+@positopn_r:relative;
+
+
+*{
+	margin:0;
+	padding:0;
+}
+.clean{
+	clear: both;
+}
+
+body{
+	position:@positopn_r;
+}
+
+
+.contain{
+
+	.contain-left{
+		width: @line*2;
+		height: @line*80;
+		position: @positopn_b;
+		left: 50%;
+		margin-left: @line*(-25);
+		background: #d6ddd6;
+		border-radius: @line @line 0 0;
+	}
+	.contain-middle{
+		width: @line*50;
+		height: 320px;
+		position: @positopn_b;
+		left: 50%;
+		margin-left: -250px;
+		background: @color_w;
+		border:@line*2 solid #d6ddd6;
+		border-radius: @line @line 0 0;
+
+		.top{
+			.num{
+				width: @line*15;
+				height: @line*5;
+				background: red;
+				float:left;
+				margin-top:@line*2;
+				line-height: @line*5;
+				font-size: @line*4;
+				text-align: center;
+				color: @color_w;
+			}
+			.station{
+				float: left;
+				width: @line*35;
+				height: @line*7;
+				text-align: center;
+				color: @color_g;
+			}
+			.mytime{
+				float: left;
+				width: @line*50;
+				height: @line*2;
+			}
+		}
+		.main{
+			float: left;
+			width: @line*50;
+			height: @line*15;
+			background: @color_g;
+			margin-top: @line;
+			span{
+				display: block;
+				float: left;
+				width: 16px;
+				border: 0;
+				height: 100%;
+				margin-left: @line*3;
+				color:@color_w;
+			}
+		}
+
+		.bottom{
+			top: @line*31;
+			.bottomf{
+				.p2{
+					margin-left:@line*20;
+					margin-top:@line; 
+				}
+			}
+			.line{
+				float: left;
+				height: @line/2;
+				width: @line*40;
+				background: @color_r;
+				margin-top: 15px;
+				margin-left:@line*2;
+			}
+
+			.sanjiao{
+				float: left;
+				width: 0px;
+				height: 0px;
+				border: @line solid;
+				border-color: transparent transparent red red;
+				transform:skew(30deg);
+				-ms-transform:skew(30deg); /* IE 9 */
+				-moz-transform:skew(30deg); /* Firefox */
+				-webkit-transform:scaleX(2) skew(20deg); /* Safari and Chrome */
+				-o-transform:skew(30deg); /* Opera */
+			}
+		}
+	}
+
+	.contain-right{
+		width: @line*2;
+		height: @line*80;
+		position: @positopn_b;
+		left: 50%;
+		margin-left: @line*27;
+		background: #d6ddd6;
+		border-radius: @line @line 0 0;
+	}
+
+	
+}
+
+
+p:first-child{
+	font-size: @line*3;
+}
+
+
+
+
+
+

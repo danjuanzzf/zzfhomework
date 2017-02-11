@@ -1,0 +1,375 @@
+@color_r:red;
+@color_w:white;
+@color_g:grey;
+@zero:0;
+@negative_one:-1;
+@height_1:10px;
+@width_1:10px;
+@width_1109:1109;
+@display_b:block;
+@all:100%;
+@position_a:absolute;
+@position_r:relative;
+@float_l:left;
+
+*{
+	margin:@zero;
+	padding:@zero;
+}
+
+body{
+	color:@color_r;
+}
+
+header{
+	height:@height_1*6;
+	.row{
+		padding-top: @height_1;
+		padding-bottom: @height_1;
+		box-sizing: border-box;
+
+		img{
+		height: @height_1*4;
+		width: @width_1109;
+		}
+	}	
+}
+
+article{
+	position: @position_r;
+	.videocontain{
+		z-index: @negative_one;
+		height:@height_1*52.5;
+		width: @width_1*142;
+		display: @display_b;
+	}
+	.p1{
+		position: @position_a;
+		margin-top:@width_1*(-50);
+		left: @all/2;
+		margin-left:@width_1*(-28.2);
+		.h{
+			color: @color_w;
+			width: @width_1*60;
+			padding-left: @width_1*10;
+			
+		}
+		.h01{
+			color: @color_w;
+			width: @width_1*60;
+			font-size: @width_1+3;
+		}
+		.h02{
+			color: @color_w;
+			width: @width_1*60;
+			padding-left: @width_1*7.5;
+			font-size: @width_1+3;
+		}
+	}
+	.pho{
+		position: @position_a;
+		margin-top: @width_1*(-33);
+		left: @all/2;
+		margin-left: @width_1*(-10.8);
+		height:@width_1*4.4;
+
+		.pho2{
+			float: @float_l;
+			width: @width_1*14.1;
+			height: @width_1*4.4;
+			background: @color_g;
+			opacity: 0.5;
+			&:hover{opacity: 1;}
+			a{
+				&:hover{text-decoration:none;color: @color_w};
+				width: @width_1*9.1;
+				height: @width_1*1.6;
+				display: @display_b;
+				margin:7px auto;
+				vertical-align: middle;
+				color: @color_w;
+				text-align: center;
+				text-decoration:none;
+			}
+		}
+		.pho1{
+			float: @float_l;
+			margin-left:@width_1*(-6.9); 
+			margin-right: @width_1*3;
+			width: @width_1*14.1;
+			height: @width_1*4.4;
+			background: @color_g;
+			opacity: 0.5;
+			&:hover{opacity: 1;}
+			a{
+				&:hover{text-decoration:none;color: @color_w;}
+				width: @width_1*9.1;
+				height: @width_1*1.6;
+				display: @display_b;
+				margin:7px auto;
+				vertical-align: middle;
+				color: @color_w;
+				text-align: center;
+				text-decoration:none;
+			}
+		}
+	}
+
+	.s1{
+		position: @position_a;
+		margin-top: -255px;
+		left: 50%;
+		margin-left: -82px;
+		color: @color_w;
+		span{
+			font-size: 12px;
+		}
+	}
+	.a01{
+		&:hover{
+			opacity: 1;
+			a{
+				color: white;
+				text-decoration:none;
+			}
+		}
+		position: @position_a;
+		margin-top: @width_1*(-18);
+		left: 50%;
+		margin-left: -86px;
+		color: @color_w;
+		width: @width_1*12;
+		height: 34px;
+		border:1px solid rgb(265,265,265);
+		border-radius: @width_1*2;
+		opacity: 0.5;
+		a{
+			display: @display_b;
+			margin:7px auto;
+			text-align: center;
+			color: @color_w;
+		}
+
+	}
+	.b1{
+		width: 100%;
+		height: @width_1*24;
+		margin-top: @width_1*(-10);
+
+		.b11,.b12,.b13{
+			position: @position_r;
+			background: @color_w;
+			height: @width_1*24;
+			width: 322px;
+			float: left;
+			box-sizing: border-box;
+		}
+		.b11{
+			margin-left: @width_1*16;
+			margin-right: @width_1*2;
+			.s01,.s02,.s03{
+				display: @display_b;
+				font-size: 18px;
+				height: @width_1*5;
+				text-align: center;
+				line-height: 50px;
+			}
+			.b01{
+				padding: 17px 10px; 
+				.b111,.b112,.b113,.b114{
+					width: 75px;
+					height: 76px;
+					background: white;
+					float: left;
+					display: @display_b;
+					.s11{
+						text-align: center;
+						display: block;
+						width: 75px;
+						height: 16px;
+						color: black;
+					}
+				}
+				.b111{
+					.b1111{
+						display: inline-block;
+						margin-left: 12px;
+						width: 50px;
+						height: 50px;
+						 background:url(http://s1.jikexueyuan.com/index/images/cardhtml5_c4de6b8.jpg) no-repeat center /26px 35px;
+					}
+				}
+				.b112{
+					.b1112{
+						display: inline-block;
+						margin-left: 12px;
+						width: 50px;
+						height: 50px;
+						background:url(http://s1.jikexueyuan.com/index/images/cardpython_46dafa5.png) no-repeat center / 35px 35px
+					}
+				}
+				.b113{
+					.b1113{
+						display: inline-block;
+						margin-left: 12px;
+						width: 50px;
+						height: 50px;
+						background:url(http://s1.jikexueyuan.com/index/images/cardgo_f7d5603.png) no-repeat center / 25px 35px
+					}
+				}
+				.b114{
+					.b1114{
+						display: inline-block;
+						margin-left: 12px;
+						width: 50px;
+						height: 50px;
+						 background:url(http://s1.jikexueyuan.com/index/images/cardios_1b210b7.jpg) no-repeat center / 30px 35px
+					}
+				}
+
+				.bclear{
+					clear: both;
+				}
+			}
+			
+		}
+		.b12{
+			margin-right: @width_1*2;
+			.s02{
+				display: @display_b;
+				font-size: 18px;
+				height: @width_1*5;
+				text-align: center;
+				line-height: 50px;
+			}
+
+			.b02{
+				padding: 17px 10px;
+				.b121{
+					width: 150px;
+					height: 77px;
+					float: left;
+					display: block;
+					.b1115{
+						display: block;
+						width: 150px;
+						height: 37px;
+						float: left;
+						background:url(http://s1.jikexueyuan.com/index/images/cardvideohover_a616ae2.png) no-repeat center / 30px 35px;
+					}
+					span{
+						display: block;
+						width: 150px;
+						height: 20px;
+						text-align:center;
+						float: left;
+						color: black;
+					}
+				}
+				.b122{
+					width: 150px;
+					height: 77px;
+					float: left;
+					display: block;
+					.b1116{
+						display: block;
+						width: 150px;
+						height: 37px;
+						float: left;
+						 background:url(http://s1.jikexueyuan.com/index/images/cardwiki_5eaea4b.jpg) no-repeat center / 30px 35px;
+					}
+					span{
+						display: block;
+						width: 150px;
+						height: 20px;
+						text-align:center;
+						float: left;
+						color: black;
+					}
+				}
+				
+			}
+			
+		}
+		.b13{
+			.s03{
+				display: @display_b;
+				font-size: 18px;
+				height: @width_1*5;
+				text-align: center;
+				line-height: 50px;
+			}
+
+			.b03{
+				padding: 17px 10px; 
+				.b131{
+					width: 100px;
+					height: 77px;
+					float: left;
+					display: block;
+					.b1117{
+						display: block;
+						width: 100px;
+						height: 37px;
+						float: left;
+						 background:url(http://s1.jikexueyuan.com/index/images/cardxue_99b0a45.jpg) no-repeat top center / 33px 28px;
+					}
+					span{
+						display: block;
+						width: 100px;
+						height: 20px;
+						text-align:center;
+						float: left;
+						color: black;
+					}
+				}
+				.b132{
+					width: 100px;
+					height: 77px;
+					float: left;
+					display: block;
+					.b1118{
+						display: block;
+						/*margin-left: 12px;*/
+						width: 100px;
+						height: 37px;
+						float: left;
+						 background:url(http://s1.jikexueyuan.com/index/images/cardjiao_d70bff6.jpg) no-repeat top center / 36px 27px;	
+					}
+					span{
+						display: block;
+						width: 100px;
+						height: 20px;
+						text-align:center;
+						float: left;
+						color: black;
+					}
+				}
+				.b133{
+					width: 100px;
+					height: 77px;
+					float: left;
+					display: block;
+					.b1119{
+						display: block;
+						/*margin-left: 12px;*/
+						width: 100px;
+						height: 37px;
+						float: left;
+						 background:url(http://s1.jikexueyuan.com/index/images/cardbu_1d16287.jpg) no-repeat top center / 22px 30px;
+					}
+					span{
+						display: block;
+						width: 100px;
+						height: 20px;
+						text-align:center;
+						float: left;
+						color: black;
+					}
+				}
+			}
+		}
+
+	}
+
+}

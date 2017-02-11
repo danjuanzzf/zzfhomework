@@ -1,0 +1,129 @@
+body{
+	background:#38f;
+}
+
+.contain{
+	width: 710px;
+	height: 1050px;
+	border-radius:20px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-left:-305px; 
+	background: white;
+}
+header{
+	position: relative;
+	float: left;
+	left: 15px;
+}
+nav{
+	position: relative;
+	float: right;
+	height: 76px;
+	width:515px;
+}
+article{
+	position: relative;
+	top: 76px;
+}
+footer{
+	position: relative;
+	float: left;
+	top: 76px;
+	left: 50%;
+	margin-left: -168px;
+}
+
+nav>a{
+	color: rgb(255, 0, 153);
+	cursor: pointer;
+	position: relative;
+	top:40px;
+
+	font-size: 12px;
+}
+table{
+	border: 1px ;
+	width: 637px;
+	height:58px;
+	position: relative;
+	left: 50%;
+
+	margin-left:-318px; 
+}
+td{
+	border: 1px solid;	
+	border-collapse: collapse;
+	border-color: grey;
+
+}
+
+/*文字居中*/
+.s2,.s1,.s3{
+	display: block;
+		text-align: center;
+		font-size: 11px;	
+}
+
+/*变红*/
+.s3:link a{}
+.s3:visit a{}
+.s3:hover a{
+	color: red;
+}
+
+/*注意*/
+.s4{
+	display: inline;
+	font-size: 11px;
+	color: red;
+}
+
+/*蓝字*/
+.s5{
+	display: inline;
+	font-size: 11px;
+	color: blue;
+}
+.t1{
+	display: block;
+}
+
+
+td.jbzl{
+	background-color: rgb(238, 238, 238);
+	height: 20px;
+
+}
+
+/*基本信息*/
+.jb{
+	color: blue;
+	font-size: 14px;
+}
+
+
+/*所有的*号*/
+.xh{
+	color: red;
+	margin: 0;
+}
+.ff{
+	display: inline;
+}
+.xx,.dwb{
+	display: block;
+}
+.tj{
+	height: 85px;
+}
+.tjan{
+	width: 88px;
+}
+
+
+
+
+
+
